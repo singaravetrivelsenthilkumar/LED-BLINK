@@ -105,6 +105,7 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 
 13. Click **Run** to execute the program.
 ### 💻 **Program**
+```
 #include "main.h"
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -123,6 +124,7 @@ int main(void)
         HAL_Delay(1000);
     }
 }
+```
 
 ### OUTPUT
 CASE 1: LED ON 
